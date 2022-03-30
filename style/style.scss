@@ -209,7 +209,8 @@ section{
 }
 
 .service{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(41rem, 1fr));
 
     .box{
         text-align: center;
@@ -240,7 +241,7 @@ section{
 .menu{
     .box-container{
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: repeat(auto-fit, minmax(41rem, 1fr));
 
         .box{
             text-align: center;
@@ -326,7 +327,7 @@ section{
 .reviews{
     .box-container{
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: repeat(auto-fit, minmax(41rem, 1fr));
 
         .box{
             text-align: center;
@@ -432,7 +433,7 @@ section{
 .blogs{
     .box-container{
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: repeat(auto-fit, minmax(41rem, 1fr));
 
         .box{
             position: relative;
